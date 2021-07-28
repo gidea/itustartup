@@ -42,9 +42,9 @@ class Navbar extends React.Component {
           ]
 
           const navigation = [
-            { name: 'About us', href: '#' },
-            { name: 'Startup Portfolio', href: '#' },
-            { name: 'Contact', href: '#' },
+            { name: 'About us', href: '/about' },
+            { name: 'Startup Portfolio', href: '/portfolio' },
+            { name: 'Contact', href: '/contact' },
           ]
 
           function classNames(...classes) {
@@ -59,7 +59,7 @@ class Navbar extends React.Component {
               <div className="flex justify-between items-center max-w-7xl mx-auto pt-16 px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
                     
-                  <a href="#">
+                  <a href="/">
                     <span className="sr-only">ITU Startup</span>
                     <img
                       className="h-16 w-auto sm:h-16"

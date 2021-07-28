@@ -1,69 +1,103 @@
 import React from "react";
+import AWS from '../images/partners/aws.png';
+import Google from '../images/partners/google.png';
+import Billy from '../images/partners/billy.png';
+import LegalMonster from '../images/partners/legalmonster.png';
+import Cuttles from '../images/partners/cuttles.png';
+import ContractBook from '../images/partners/contractbook.png';
+import Capdesk from '../images/partners/capdesk.png';
+import StartupCentral from '../images/partners/startupcentral.png';
+import VentureCup from '../images/partners/venturecup.png';
 
 class Partners extends React.Component {
     render() {
 
-    // const partnerList: [
-    //     {   name: 'AWS',
-    //         logo: ''
-    //     },
-    // ]
+        const partnerList = [
+            {
+                name: 'AWS',
+                href: '#',
+                logo: AWS,
+              },
+              {
+                name: 'Google',
+                href: '#',
+                logo: Google,
+              },
+              {
+                name: 'Billy',
+                href: '#',
+                logo: Billy,
+              },
+              {
+                name: 'LegalMonster',
+                href: '#',
+                logo: LegalMonster,
+              },
+              {
+                name: 'Cuttles',
+                href: '#',
+                logo: Cuttles,
+              },
+              {
+                name: 'CapDesk',
+                href: '#',
+                logo: Capdesk,
+              },
+              {
+                name: 'ContractBook',
+                href: '#',
+                logo: ContractBook,
+              },
+              {
+                name: 'StartupCentral',
+                href: '#',
+                logo: StartupCentral,
+              },
+              {
+                name: 'VentureCup',
+                href: '#',
+                logo: VentureCup,
+              },  
+          ]
 
     return (
-        <div className="bg-gray-200">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-          <p className="text-center p-8 text-lg font-semibold uppercase text-gray-500 tracking-wide">
-            Working together with some exceptional partners
-          </p>
-          
-          <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-4">
-            <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+<div className="bg-white p-20">
+      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+          <div>
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              We're not the only ones comitted to helping student startups
+            </h2>
+            <p className="mt-3 max-w-3xl text-lg text-gray-500">
+              We are working together with many exceptional partners who also believe in our mission of supporting the student entreprenewurs of tomorrow.
+            </p>
+            <div className="mt-8 sm:flex">
+              <div className="rounded-md shadow">
+                <a
+                  href="#"
+                  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+                >
+                  Become a partner
+                </a>
+              </div>
+              
             </div>
-
-            <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+          </div>
+          <div className="mt-8 grid grid-cols-3 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-3">
+          {partnerList.map((partner) => (
+            <div key={partner.name} className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+              <a href={partner.url}><img
+                className="max-h-12"
+                src={partner.logo}
+                alt={partner.name}
+              />
+              </a>
             </div>
-
-            <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit"/>
-            </div>
-
-            <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor"/>
-            </div>
-
-            <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation"/>
-            </div>
-
-            <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation"/>
-            </div>
-
-            <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation"/>
-            </div>
-
-            <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation"/>
-            </div>
-
-            <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation"/>
-            </div>
-
-            <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                <img className="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation"/>
-            </div>
-
-            
-
-            
-
+            ))}
           </div>
         </div>
       </div>
+    </div>
     );
 
     }
