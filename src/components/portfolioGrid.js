@@ -1,5 +1,5 @@
 import React from "react";
-import HeyLouise from "../images/startups/heylouise.png";
+// import HeyLouise from "../images/startups/heylouise.png";
 
 class PortfolioGrid extends React.Component {
   
@@ -9,31 +9,31 @@ class PortfolioGrid extends React.Component {
         {
           name: 'KARL',
           vertical: 'SaaS',
-          logo: HeyLouise,
+          logo: 'https://startupprogramme.dk/wp-content/uploads/2019/06/HeyLouise_wp.png',
           link: 'https://karl.farm',
         },
         {
           name: 'Autoscopia Interactive',
           vertical: 'SaaS',
-          logo: HeyLouise,
+          logo: 'https://startupprogramme.dk/wp-content/uploads/2019/06/HeyLouise_wp.png',
           link: 'https://autoscopiainteractive.com/',
         },
         {
           name: 'HeyLouise',
           vertical: 'SaaS',
-          logo: HeyLouise,
+          logo: 'https://startupprogramme.dk/wp-content/uploads/2019/06/HeyLouise_wp.png',
           link: 'https://heylouise.com',
         },
         {
           name: 'Resolved',
           vertical: 'SaaS',
-          logo: HeyLouise,
+          logo: 'https://startupprogramme.dk/wp-content/uploads/2019/06/HeyLouise_wp.png',
           link: 'https://resolved.io',
         }, 
         {
           name: 'Marionette',
           vertical: 'SaaS',
-          logo: HeyLouise,
+          logo: 'https://startupprogramme.dk/wp-content/uploads/2019/06/HeyLouise_wp.png',
           link: 'https://marionettexr.com',
         }, 
       ]
@@ -44,7 +44,7 @@ class PortfolioGrid extends React.Component {
           {startups.map((startup) => (
         <li key={startup.name} className="relative">
           <div className="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
-            <a href={startup.link} title={startup.name}>
+            <a href={startup.link} title={startup.name} target='_blank'>
             <img src={startup.logo} alt={startup.name} className="object-cover pointer-events-none group-hover:opacity-75" />
             <button type="button" className="absolute inset-0 focus:outline-none">
               <span className="sr-only">View website for {startup.name}</span>
