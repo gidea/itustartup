@@ -10,13 +10,13 @@ class PortfolioGrid extends React.Component {
           name: 'KARL',
           vertical: 'SaaS',
           logo: HeyLouise,
-          link: 'https://heylouise.com',
+          link: 'https://karl.farm',
         },
         {
           name: 'Autoscopia Interactive',
           vertical: 'SaaS',
           logo: HeyLouise,
-          link: 'https://heylouise.com',
+          link: 'https://autoscopiainteractive.com/',
         },
         {
           name: 'HeyLouise',
@@ -28,13 +28,13 @@ class PortfolioGrid extends React.Component {
           name: 'Resolved',
           vertical: 'SaaS',
           logo: HeyLouise,
-          link: 'https://heylouise.com',
+          link: 'https://resolved.io',
         }, 
         {
           name: 'Marionette',
           vertical: 'SaaS',
           logo: HeyLouise,
-          link: 'https://heylouise.com',
+          link: 'https://marionettexr.com',
         }, 
       ]
 
@@ -56,12 +56,7 @@ class PortfolioGrid extends React.Component {
         </li>
       ))}
     </ul>
-    </div>
-          
-
-
-
-          
+    </div>         
 
     );
   } 
