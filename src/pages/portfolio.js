@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import Header from "../components/header";
-import PortfolioGrid from "../components/portfoliogrid";
+import Startups from "../components/portfoliogrid";
 import Footer from "../components/footer";
 import Photo from "../images/portfolio-image.jpeg";
 
@@ -21,7 +21,7 @@ class PortfolioPage extends React.Component {
             <title>ITU Startup Incubator for ITU Students</title>
             <Navbar />
             <Header image={this.state.image} title={this.state.title} description={this.state.description}/>
-            <PortfolioGrid />
+            <Startups />
             <Footer />
     </main>
         );
