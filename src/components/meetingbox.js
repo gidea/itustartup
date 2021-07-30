@@ -1,5 +1,5 @@
 import React from "react";
-import { MailIcon, ExternalLinkIcon } from '@heroicons/react/solid';
+import { ExternalLinkIcon } from '@heroicons/react/solid';
 import SupportImg from "../images/support.jpeg";
 
 

@@ -4,8 +4,9 @@ import Hero from '../components/hero';
 import Stages from '../components/stages';
 import Partners from '../components/partners';
 import MeetingBox from '../components/meetingbox';
-// import Contact from '../components/contact';
 import Footer from '../components/footer';
+
+
 
 export default function IndexPage () {
   return (
@@ -16,7 +17,6 @@ export default function IndexPage () {
       <Stages />
       <MeetingBox />
       <Partners />
-      {/* <Contact /> */}
       <Footer />
     </main>
   );

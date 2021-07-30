@@ -1,5 +1,4 @@
 import React from "react";
-import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
 
 
 class Contact extends React.Component {
@@ -14,7 +13,7 @@ class Contact extends React.Component {
           <div className="max-w-lg mx-auto">
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">Our offices</h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              We are located at the IT University of Copenhagen where we also run the incubator on behalf of the university.
+              We are located at the IT University of Copenhagen.
             </p>
             <dl className="mt-8 text-base text-gray-500">
               <div>

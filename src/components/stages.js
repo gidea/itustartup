@@ -1,6 +1,5 @@
 import React from 'react'
-import { UserGroupIcon, LightningBoltIcon, LightBulbIcon, ScaleIcon } from '@heroicons/react/outline'
-import { MailIcon, SupportIcon, GlobeAltIcon } from '@heroicons/react/outline'
+import { UserGroupIcon, LightningBoltIcon, LightBulbIcon } from '@heroicons/react/outline';
 
 
 

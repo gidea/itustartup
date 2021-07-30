@@ -1,16 +1,6 @@
 import React from "react";
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import {
-  AnnotationIcon,
-  ChatAlt2Icon,
-  InboxIcon,
-  MenuIcon,
-  QuestionMarkCircleIcon,
-  XIcon,
-} from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
-import Image from "../images/hero-section.jpeg";
+// import Image from "../images/hero-section.jpeg";
+import { StaticImage } from "gatsby-plugin-image";
 
 class Hero extends React.Component {
     render() {
@@ -23,11 +13,12 @@ class Hero extends React.Component {
             <div className="max-w-7xl pt-20 mx-auto sm:px-6 lg:px-8">
               <div className="relative shadow-xl  sm:overflow-hidden">
                 <div className="absolute inset-0">
-                  <img
+                <StaticImage className="h-full w-full object-cover" src="../images/hero-section.jpeg" alt="People working on laptops" />
+                  {/* <img
                     className="h-full w-full object-cover"
-                    src={Image}
+                    src={StaticImage}
                     alt="People working on laptops"
-                  />
+                  /> */}
                   <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-yellow-500 mix-blend-multiply" />
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
