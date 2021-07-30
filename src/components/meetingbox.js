@@ -1,6 +1,7 @@
 import React from "react";
 import { ExternalLinkIcon } from '@heroicons/react/solid';
-import SupportImg from "../images/support.jpeg";
+// import SupportImg from "../images/support.jpeg";
+import { StaticImage } from "gatsby-plugin-image";
 
 
 class MeetingBox extends React.Component {
@@ -8,11 +9,12 @@ class MeetingBox extends React.Component {
         return (
             <div className="relative bg-gray-800">
       <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-        <img
+      <StaticImage className="h-full w-full object-cover" src="../images/support.jpeg" alt="People asking questions" />
+        {/* <img
           className="w-full h-full object-cover"
           src={SupportImg}
           alt="People receiving help from an advisor"
-        />
+        /> */}
       </div>
       <div className="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="md:ml-auto md:w-1/2 md:pl-10">
@@ -24,7 +26,7 @@ class MeetingBox extends React.Component {
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="#"
+                href="/meeting"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
               >
                 Book a meeting

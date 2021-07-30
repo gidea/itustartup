@@ -61,7 +61,7 @@ class Partners extends React.Component {
           ]
 
     return (
-<div className="bg-white p-20">
+  <div className="bg-white p-20">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div>
@@ -74,7 +74,7 @@ class Partners extends React.Component {
             <div className="mt-8 sm:flex">
               <div className="rounded-md shadow">
                 <a
-                  href="#"
+                  href="/contact"
                   className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
                 >
                   Become a partner
@@ -83,7 +83,7 @@ class Partners extends React.Component {
               
             </div>
           </div>
-          <div className="mt-8 grid grid-cols-3 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-3">
+          <div className="mt-8 grid grid-cols-3 gap-0.5 md:grid-cols-2 lg:mt-0 lg:grid-cols-3 sm:grid-cols-2">
           {partnerList.map((partner) => (
             <div key={partner.name} className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
               <a href={partner.url}><img

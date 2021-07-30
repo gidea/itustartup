@@ -1,10 +1,12 @@
 import React from "react";
+// import { StaticImage } from "gatsby-plugin-image";
 
 class Header extends React.Component {
     render() {
         return(
     <div className="relative ">
       <div className="absolute inset-0">
+      {/* <StaticImage className="h-full w-full object-cover" src={this.props.image} alt={this.props.title}/> */}
         <img
           className="w-full h-full object-cover"
           src={this.props.image}

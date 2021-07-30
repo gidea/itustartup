@@ -3,23 +3,21 @@ import React from "react";
 const people = [
     {
       name: 'Adam Hillestrom',
-      role: 'Senior Front-end Developer',
+      role: 'CEO',
       imageUrl:
         'https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
       bio:
-        'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-      twitterUrl: '#',
-      linkedinUrl: '#',
+        'Adam is an experienced operator, with a highly specialised background in both business administration and strategic management. Besides working with IP Portfolio management and technology transfer processes at ITU Business Development, Adam is the Chairman of Flow Robotics A/S, a very promising robotics company and ITU spinout',
+      linkedinUrl: 'https://www.linkedin.com/in/adam-hillestr%C3%B8m-1a647b',
     },
     {
         name: 'Vlad Gidea',
-        role: 'Senior Front-end Developer',
+        role: 'Investment Manager',
         imageUrl:
           'https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
         bio:
-          'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-        twitterUrl: '#',
-        linkedinUrl: '#',
+          'Vlad combines a passion for entrepreneurship with a technical background, having worked with some of the most succesful danish startups in enabling data-driven products to be built & scaled. At ITU Business Development, Vlad is in charge of all investments &amp; student mentorship and sits on the board of some of our portfolio companies.',
+        linkedinUrl: 'http://linkedin.com/in/gidea',
       },
     
   ]

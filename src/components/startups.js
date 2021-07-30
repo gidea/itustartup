@@ -1,5 +1,5 @@
 import React from "react";
-// import HeyLouise from "../images/startups/heylouise.png";
+import HeyLouise from "../images/startups/heylouise.png";
 
 class Startups extends React.Component {
   
@@ -21,7 +21,7 @@ class Startups extends React.Component {
         {
           name: 'HeyLouise',
           vertical: 'SaaS',
-          logo: 'https://startupprogramme.dk/wp-content/uploads/2019/06/HeyLouise_wp.png',
+          logo: HeyLouise,
           link: 'https://heylouise.com',
         },
         {

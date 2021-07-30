@@ -112,18 +112,18 @@ class Stages extends React.Component {
 
 
             </section>
-            <p className="max-w-3xl mt-5 font-mono mx-auto text-xl text-gray-600">
+            <div class="max-w-4xl mx-auto sm:p-8">
+            <p className="mb-6 font-mono text-xl text-gray-600">
                 Yes, building a startup is hard and takes a lot of effort.
                 </p>
-                <p className="max-w-3xl mt-5 font-mono mx-auto text-xl text-gray-600">
+            <p className="mb-6 font-mono text-xl text-gray-600">
                 There are many things that you need to figure out, but you don't need to do everything all at the same time.<br />
-            </p>
-                <p className="max-w-3xl mt-5 font-mono mx-auto text-xl text-gray-600">
+                </p>
+            <p className="font-mono text-xl text-gray-600">
                     In reality it is simply a sequence of steps taking you closer to your goal. And we are there to support you on that journey.
-                    </p>
-
+                </p>
+            </div>
             <div class="container mx-auto sm:px-6 lg:px-8 mt-16 max-w-7xl mx-auto relative z-10 px-4">
-                
               <div class="flex relative pt-10 sm:items-center md:w-2/3 mx-auto">
                 <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                   <div class="h-full w-1 bg-gray-400 pointer-events-none"></div>

@@ -1,11 +1,10 @@
 import React from "react";
-import AboutPhoto from "../images/about-header.jpeg";
 import Navbar from "../components/navbar";
 import Header from "../components/header";
 import Mission from "../components/mission";
 import Team from "../components/team";
 import Footer from "../components/footer";
-
+import AboutPhoto from "../images/about-header.jpeg";
 
 
 class AboutPage extends React.Component {

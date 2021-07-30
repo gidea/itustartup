@@ -27,22 +27,22 @@ class Hero extends React.Component {
                     <span className="block font-mono text-indigo-200">for ITU students</span>
                   </h1>
                   <p className="mt-16 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">
-                    We provide the right resources, mentorship &amp; support for students<br/>
+                    We provide the right resources, mentorship &amp; financial support for students<br/>
                     to create new technology startups at the IT University of Copenhagen.
                   </p>
                   <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                     <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
                       <a
-                        href="#"
+                        href="https://forms.office.com/Pages/ResponsePage.aspx?id=timivgh6hkC0THH1f3Fr21NFSFCP4kNMgDz9einVqfBUNVc0VkwwUEVBNVgwQ0kxS0QzUVdHMzM0TiQlQCN0PWcu"
                         className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"
                       >
                         Join the incubator
                       </a>
                       <a
-                        href="#"
+                        href="/matchmaking"
                         className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                       >
-                        Learn more
+                        Find a cofounder
                       </a>
                     </div>
                   </div>
