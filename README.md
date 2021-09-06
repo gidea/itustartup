@@ -1,37 +1,28 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
+
 <h1 align="center">
-  Gatsby minimal starter
+  ITU Startup website
 </h1>
 
-## 🚀 Quick start
+## 🚀 Created using React, Gatsby, Tailwind, Github & delivered from Gatsby Cloud
 
-1.  **Create a Gatsby site.**
+1.  **Editing the site .**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+    First, pull this repo locally and ensure you are able to push changes (you have the rights). To edit your local copy of the website you need to use a code editor, which makes it easier to see the language-specific syntax, or comit changes to the git repo. Pages and components are written in Javascript, using the React librabry. 
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+    Edit `src/pages/` or `src/components/` to see your site update in real-time! Neat!
 
-2.  **Start developing.**
+    Only commit when you are sure there are no bugs, otherwise everything comes crumbling down! JK, you can always fix stuff so don't be afraid to break things.
 
-    Navigate into your new site’s directory and start it up.
+2.  **Using Gatsby & Gatsby Cloud.**
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+    Make sure you keep Gatsby updated. There are a few packages included in your Gatsby website which also might require maintainance from time to time. Such is the way of the modern web stack. 
+    This is deployed on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/): it takes the repo and publishes the website to the domain itustartup.dk 
+    The domain is managed in One.com so any DNS changes, redirects, mail accounts, FTP/SFTP and other services would be there.
+
 
 3.  **Open the code and start customizing!**
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
+    After you run "npm run develop" your site is running at http://localhost:8000!
 
 4.  **Learn more**
 

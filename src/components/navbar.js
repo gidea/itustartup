@@ -19,24 +19,24 @@ class Navbar extends React.Component {
             {
               name: 'Matchmaking',
               description: 'Fill out the form and find a cofounder for your startup.',
-              href: '#',
+              href: '/cofounders',
               icon: InboxIcon,
             },
             { name: 'Book a meeting',
               description: "Not sure what to do? Just let us know and we can have a chat!",
-              href: '#',
+              href: '/meeting',
               icon: ChatAlt2Icon },
             {
               name: 'Pipeline',
               description: 'A 3-month mentorship programe to turn your idea into a startup.',
-              href: '#',
+              href: '/pipeline',
               icon: AnnotationIcon,
             },
             
             {
               name: 'Incubator',
               description: "Build a business and a working prototype in our incubator.",
-              href: '#',
+              href: '/incubator',
               icon: QuestionMarkCircleIcon,
             },
           ]
