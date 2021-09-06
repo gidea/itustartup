@@ -3,7 +3,7 @@
   ITU Startup website
 </h1>
 
-## 🚀 Created using React, Gatsby, Tailwind, Github & delivered from Gatsby Cloud
+## 🚀 Created using React, Tailwind, Github & Gastby with Gatsby Cloud
 
 1.  **Editing the site .**
 
