@@ -83,7 +83,7 @@ class CoursePage extends React.Component {
                 <div className="mt-16 flex justify-center">
                 <div className="inline-flex rounded-md shadow">
                     <a
-                      href="#"
+                      href="https://forms.gle/KBPaziG2sB39ZViu5"
                       className="inline-flex items-center justify-center px-20 py-6 border border-transparent text-xl font-normal rounded-md text-white bg-green-600 hover:bg-green-700"
                     >
                       Enroll in the course
@@ -216,7 +216,7 @@ class CoursePage extends React.Component {
         <div className="mt-16 flex justify-center">
                 <div className="inline-flex rounded-md shadow">
                     <a
-                      href="#"
+                      href="https://forms.gle/KBPaziG2sB39ZViu5"
                       className="inline-flex items-center justify-center px-20 py-6 border border-transparent text-xl font-normal rounded-md text-white bg-green-600 hover:bg-green-700"
                     >
                       Enroll in the course
