@@ -24,7 +24,7 @@ const courseBoxes = [
     {
       name: 'Expert Speakers',
       description:
-        'Highly succesful startup founders will share their experience, and how the real-world can be different than you what you have planned for.',
+        'Highly successful startup founders will share their experience, and how the real-world might end up looking different than planned for.',
       icon: NewspaperIcon,
     },
   ]
@@ -79,7 +79,7 @@ class CoursePage extends React.Component {
                 <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Entrepreneurship Course</h1>
                 <h2 className="text-3xl tracking-tight text-white">Building a business from idea to first commercial sales</h2>
                 <p className="mt-6 max-w-3xl text-xl text-gray-300">
-                    A 6 week programme to help you understand the building blocks of succesful startups, learn from the founders of some of the biggest Danish tech startups and apply everything to a specific case.
+                    A 6 week programme to help you understand the building blocks of succesful startups, learn from the founders of some of the biggest Danish tech startups and apply it to your idea.
                 </p>
                 </div>
             </div>
@@ -208,12 +208,12 @@ class CoursePage extends React.Component {
           <h3>The outline of sessions are as follows:</h3>
           <ul role="list">
             <li><strong>Oct 6 - Course introduction:</strong> What is a startup? What does it take to succeed? An overview of the startup journey, ideas and how to think about them using the business model canvas.</li>
-            <li><strong>Oct 13 - Market and customer validation:</strong> How to get customer and market information, how to size the opportunity, the customer value proposition, thinking big and starting  small - does that make it less ambitious?</li>
-            <li><strong>Oct 20 - Autumn break :)</strong> </li>
+            <li><strong>Oct 13 - Market and Customer Validation:</strong> How to get customer and market information, how to size the opportunity, the customer value proposition, thinking big and starting  small - does that make it less ambitious?</li>
+            <li><strong>Oct 20 - 🍂 Autumn break 💆</strong> </li>
             <li><strong>Oct 27 - Building the first product:</strong> How to scope the product, things to consider when defining your Minimal Viable Product (MVP), beta testing - when, with whom and what are the risks.</li>
             <li><strong>Nov 3 - Getting the first customer:</strong> Go-to-market strategies, understanding the customer, the customer decision process, pricing, closing your first sales.</li>
             <li><strong>Nov 10 - Team and Execution:</strong> Founders and co-founders, team diversity and energy, what are the skills required to execute the opportunity?, cost effective execution, team dynamics</li>
-            <li><strong>Nov 17 - Financials and financing:</strong> Key financial metrics, financing options and things to consider: bootstrap - friends - angels - VC’s, course wrap-up and course evaluation.</li>
+            <li><strong>Nov 17 - Financials and Financing:</strong> Key financial metrics, financing options and things to consider: bootstrap - friends - angels - VC’s, course wrap-up and course evaluation.</li>
           </ul>
           <h2>Guest speakers</h2>
           <p>We are glad to welcome world-renowed entrepreneurs which have built and scaled some of the most succesful technology companies to date.</p>
@@ -229,7 +229,7 @@ class CoursePage extends React.Component {
               </div>
             ))}
           </div>
-          <h2>From beginner to expert in 6 weeks</h2>
+          <h2>From beginner to founder in 6 weeks</h2>
           <p>
           This course is relevant for students interested in building new businesses.
           Both students that out of curiosity want to get a better understanding of what it takes to build a viable
@@ -244,7 +244,11 @@ class CoursePage extends React.Component {
             <p>
               This course is a pilot-initiative aiming to bring a more hands-on approach to entrepreneurship, and decide if a permanent Applied Entrepreneruship course should be provided to ITU students.
             </p>
+            <p className="text-right text-xl text-gray-500">
+            MARTIN TVEDE ZACHARIASEN, ITU Vice Chancellor</p>
           </blockquote>
+
+
         </div>
 
         <div className="mt-16 flex justify-center">
