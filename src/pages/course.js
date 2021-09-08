@@ -3,33 +3,56 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import CoursePhoto from "../images/course.jpeg";
 import UlrikPhoto from "../images/ulrik.jpeg";
+import UllaProfile from "../images/ulla.jpeg";
+import HeiniProfile from "../images/heini.jpeg";
+import MortenProfile from "../images/morten.jpeg";
 import { NewspaperIcon, PhoneIcon, SupportIcon } from '@heroicons/react/outline'
-import { CameraIcon } from '@heroicons/react/solid'
 
-
-const supportLinks = [
+const courseBoxes = [
     {
       name: 'Weekly Sessions',
-      href: '#',
       description:
         'The course runs over a 6 week period with different modules focused on specific building blocks for succesful technology startups.',
       icon: PhoneIcon,
     },
     {
       name: 'Practice + Toolbox',
-      href: '#',
       description:
         'Bring your own startup idea, or work together with others and apply your learning. We will support you and provide the tools needed.',
       icon: SupportIcon,
     },
     {
       name: 'Expert Speakers',
-      href: '#',
       description:
         'Highly succesful startup founders will share their experience, and how the real-world can be different than you what you have planned for.',
       icon: NewspaperIcon,
     },
   ]
+
+  const guestSpeakers = [
+    {
+      name: 'Ulla Hald',
+      role: 'Founder & CEO',
+      startup: 'Faves',
+      href: 'https://thefavesapp.com/',
+      imageUrl: UllaProfile,
+    },
+    {
+      name: 'Heini Zachariassen',
+      role: 'Founder & CEO',
+      startup: 'Vivino',
+      href: 'https://vivino.com',
+      imageUrl: HeiniProfile,
+    },
+    {
+      name: 'Morten Primdahl',
+      role: 'Founder & CTO',
+      startup: 'Zendesk',
+      href: 'https://zendesk.com',
+      imageUrl: MortenProfile,
+    },
+  ]
+
 
 class CoursePage extends React.Component {
     
@@ -67,14 +90,14 @@ class CoursePage extends React.Component {
                 aria-labelledby="contact-heading"
             >
                 <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-                {supportLinks.map((link) => (
+                {courseBoxes.map((box) => (
                     <div className="flex flex-col bg-white rounded-2xl shadow-xl">
                     <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
                         <div className="absolute top-0 p-5 inline-block bg-green-600 rounded-xl shadow-lg transform -translate-y-1/2">
-                        <link.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                        <box.icon className="h-6 w-6 text-white" aria-hidden="true" />
                         </div>
-                        <h3 className="text-xl font-medium text-gray-900">{link.name}</h3>
-                        <p className="mt-4 text-base text-gray-500">{link.description}</p>
+                        <h3 className="text-xl font-medium text-gray-900">{box.name}</h3>
+                        <p className="mt-4 text-base text-gray-500">{box.description}</p>
                     </div>
                     </div>
                 ))}
@@ -173,7 +196,7 @@ class CoursePage extends React.Component {
           as co-founder of Zendesk <a href="https://www.nasdaq.com/market-activity/stocks/zen" title="Zendesk">(Nasdaq:ZEN)</a> Morten Primdah who is also an ITU alumni.
           </p>
         </div>
-        <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+        <div className="mt-6 prose prose-green prose-lg text-gray-500 mx-auto">
           <p>
           The course covers the key elements that need to be addressed in the journey from idea to initial commercial business.
           Focus will be on applied entrepreneurship providing frameworks that are relevant to use in the process of building a viable startup.
@@ -191,10 +214,21 @@ class CoursePage extends React.Component {
             <li><strong>Nov 3 - Getting the first customer:</strong> Go-to-market strategies, understanding the customer, the customer decision process, pricing, closing your first sales.</li>
             <li><strong>Nov 10 - Team and Execution:</strong> Founders and co-founders, team diversity and energy, what are the skills required to execute the opportunity?, cost effective execution, team dynamics</li>
             <li><strong>Nov 17 - Financials and financing:</strong> Key financial metrics, financing options and things to consider: bootstrap - friends - angels - VC’s, course wrap-up and course evaluation.</li>
-
           </ul>
-          
-          
+          <h2>Guest speakers</h2>
+          <p>We are glad to welcome world-renowed entrepreneurs which have built and scaled some of the most succesful technology companies to date.</p>
+          <div className="mx-autospace-y-16 grid sm:grid-cols-1 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl">
+            {guestSpeakers.map((person) => (
+              <div className= "items-center align-center" key={person.name}>
+                    <img className="mx-auto space-y-6 h-40 w-40 rounded-full" src={person.imageUrl} alt="speaker" />
+                    <div className="text-lg text-center leading-6 font-medium space-y-1">
+                      <h3>{person.name}</h3>
+                      <p className="text-small text-gray-600">{person.role},</p>
+                      <a className="text-gray-400 hover:text-gray-500" href={person.href} title={person.startup}>{person.startup}</a>
+                    </div>                
+              </div>
+            ))}
+          </div>
           <h2>From beginner to expert in 6 weeks</h2>
           <p>
           This course is relevant for students interested in building new businesses.
