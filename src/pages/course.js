@@ -206,7 +206,7 @@ class CoursePage extends React.Component {
           <p><strong>The course will be taught over six in class teaching sessions of two hours duration each.</strong></p>
           
           <h3>The outline of sessions are as follows:</h3>
-          <ul role="list">
+          <ul>
             <li><strong>Oct 6 - Course introduction:</strong> What is a startup? What does it take to succeed? An overview of the startup journey, ideas and how to think about them using the business model canvas.</li>
             <li><strong>Oct 13 - Market and Customer Validation:</strong> How to get customer and market information, how to size the opportunity, the customer value proposition, thinking big and starting  small - does that make it less ambitious?</li>
             <li><strong>Oct 20 - 🍂 Autumn break 💆</strong> </li>

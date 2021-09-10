@@ -1,5 +1,5 @@
 import React from "react";
-import Clockwork from "../images/Clockwork-working.jpg"
+import Clockwork from "../images/clockwork-working.jpg"
 
 
 const stats = [
