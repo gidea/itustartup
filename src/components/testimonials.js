@@ -1,4 +1,6 @@
 import React from "react";
+import LauraProfile from "../images/laura.webp";
+import KarlLogo from "../images/karllogo.webp";
 
 class Testimonials extends React.Component {
     render ()
@@ -8,7 +10,7 @@ class Testimonials extends React.Component {
       <div className="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
         <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
           <div className="md:flex-shrink-0">
-            <img className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-indigo-300.svg" alt="Tuple" />
+            <img className="h-12" src={KarlLogo} alt="KARL.farm" />
           </div>
           <blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
             <div className="relative text-lg font-medium text-white md:flex-grow">
@@ -21,8 +23,7 @@ class Testimonials extends React.Component {
                 <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
               </svg>
               <p className="relative">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-                molestiae. Numquam corrupti in laborum sed rerum et corporis.
+              ITU Startup has helped us get a good head start by providing exactly what was necessary for a pre-seed startup in the early days, like office space, AWS credits and guidance when needed!
               </p>
             </div>
             <footer className="mt-8">
@@ -30,13 +31,13 @@ class Testimonials extends React.Component {
                 <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
                   <img
                     className="h-12 w-12 rounded-full"
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                    alt=""
+                    src={LauraProfile}
+                    alt="Laura Asta - Karl.farm CEO"
                   />
                 </div>
                 <div className="ml-4">
-                  <div className="text-base font-medium text-white">Judith Black</div>
-                  <div className="text-base font-medium text-indigo-200">CEO, Tuple</div>
+                  <div className="text-base font-medium text-white">Laura Asta</div>
+                  <div className="text-base font-medium text-indigo-200">CEO, <a href="https://karl.farm" title="Intelligent Farming Management System">KARL.farm</a></div>
                 </div>
               </div>
             </footer>
