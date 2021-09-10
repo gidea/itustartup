@@ -5,7 +5,7 @@ import PipelineOffer from "../components/pipelineoffer";
 import Testimonials from "../components/testimonials";
 import Team from "../components/team";
 import Footer from "../components/footer";
-import HeaderPhoto from "../images/process.jpg";
+import HeaderPhoto from "../images/incubator.jpg";
 
 
 class IncubatorPage extends React.Component {
@@ -14,7 +14,7 @@ class IncubatorPage extends React.Component {
         super(props);
         this.state = {
             title: 'ITU Startup Incubator',
-            description: 'Free advice on how to build your idea into a startup.', 
+            description: 'We invest in the best startups at ITU and provide them with capital, office space, advice and many more resources needed for them to launch their product and get traction.', 
             image: HeaderPhoto,
             };
     };
@@ -26,7 +26,7 @@ class IncubatorPage extends React.Component {
             <title>ITU Startup Pipeline- Free startup advice for ITU Students</title>
             <Navbar />
             <Header image={this.state.image} title={this.state.title} description={this.state.description}/>
-            <PipelineOffer />
+            
             <Testimonials />
             <Team />
             <Footer />

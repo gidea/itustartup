@@ -26,7 +26,9 @@ class CofounderForm extends React.Component {
 
                 
                 </div>
-                <p className="mt-4 text-lg text-gray-500"> </p>
+                <p className="mt-4 text-sm text-gray-500">
+              *If you found your dream startup team, or if you just don't want to be part of the cofounder list anymore <br/> you can <a href="itustartup.dk/contact" title="Contact us">send us a message via the contact page</a> and ask to be deleted.
+              </p>
                 </div>
                 
             </div>

@@ -5,7 +5,7 @@ import PipelineOffer from "../components/pipelineoffer";
 import CofounderForm from "../components/cofounderform";
 import Team from "../components/team";
 import Footer from "../components/footer";
-import HeaderPhoto from "../images/process.jpg";
+import HeaderPhoto from "../images/pitching2.jpg";
 
 
 class CofoundersPage extends React.Component {
