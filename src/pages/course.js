@@ -22,7 +22,7 @@ const courseBoxes = [
       icon: SupportIcon,
     },
     {
-      name: 'Expert Speakers',
+      name: 'Expert Guest Speakers',
       description:
         'Highly successful startup founders will share their experience, and how the real-world might end up looking different than planned for.',
       icon: NewspaperIcon,
@@ -79,7 +79,7 @@ class CoursePage extends React.Component {
                 <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Entrepreneurship Course</h1>
                 <h2 className="text-3xl tracking-tight text-white">Building a business from idea to first commercial sales</h2>
                 <p className="mt-6 max-w-3xl text-xl text-gray-300">
-                    A 6 week programme to help you understand the building blocks of succesful startups, learn from the founders of some of the biggest Danish tech startups and apply it to your idea.
+                    A 6 week programme to help you understand the building blocks of succesful startups and learn from the founders of some of the biggest Danish tech startups
                 </p>
                 </div>
             </div>
@@ -266,7 +266,7 @@ class CoursePage extends React.Component {
     </div>
 
     <div className="bg-white pt-16 lg:py-24">
-      <div className="pb-16 bg-green-800 lg:pb-0 lg:z-10 lg:relative">
+      <div className="pb-16 bg-green-700 lg:pb-0 lg:z-10 lg:relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="relative lg:-my-8">
             <div aria-hidden="true" className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
