@@ -50,7 +50,7 @@ export default function PipelineOffer() {
         <div className="mt-8 flex justify-center">
         <div className="inline-flex rounded-md shadow">
             <a
-              href="#"
+              href="https://forms.office.com/Pages/ResponsePage.aspx?id=timivgh6hkC0THH1f3Fr21NFSFCP4kNMgDz9einVqfBUNVc0VkwwUEVBNVgwQ0kxS0QzUVdHMzM0TiQlQCN0PWcu"
               className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
             >
               Get started
