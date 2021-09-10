@@ -28,8 +28,8 @@ export default function PipelineOffer() {
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          <span className="block">Do you have a startup idea?</span>
-        </h2>
+         <span className="block">Do you have a startup idea?</span>
+        </h2> 
           
           <p className="mt-4 text-lg text-gray-500">
           A step-by-step programme on how to get from idea to startup. 
