@@ -4,6 +4,7 @@ import Header from "../components/header";
 import Offer from "../components/incubatoroffer";
 import Testimonials from "../components/testimonials";
 import Team from "../components/team";
+import Faq from "../components/faq";
 import Footer from "../components/footer";
 import HeaderPhoto from "../images/incubator.jpg";
 
@@ -28,6 +29,7 @@ class IncubatorPage extends React.Component {
             <Header image={this.state.image} title={this.state.title} description={this.state.description}/>
             <Offer />
             <Testimonials />
+            <Faq />
             <Team />
             <Footer />
              </main>

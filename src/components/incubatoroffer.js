@@ -2,6 +2,7 @@
 import React from "react";
 import { GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
 
+
 const features = [
   {
     name: 'Starting Capital',
@@ -26,6 +27,21 @@ const features = [
       'In-house business consultants, external legal and financial advice for some of the most experienced partners we have.',
     icon: MailIcon,
   },
+]
+
+const faqs = [
+  {
+    question: 'We think we are a good fit for your incubator, what do we do now?',
+    answer:
+      'We invest in startups we know. That mean we require them to go through our Startup Pipeline, where we can ensure that enough work has been done to validate the problem/solution fit, the founding team has the required skills and most importantly - that at least one of the founders is a student or recent graduate of ITU',
+  },
+  {
+    question: 'How do you invest?',
+    answer:
+      'We provide a convertible loan of 200 000kr with a valuation cap of 5mil kr, a maturity date of 24mths and a standard interest rate of 8%. If this sounds confusing, no worries - we will explain everything.',
+  },
+  
+  
 ]
 
 export default function IncubatorOffer() {
@@ -76,6 +92,12 @@ export default function IncubatorOffer() {
           </dl>
         </div>
       </div>
-    </div>
+      </div>
+      
+      
+
+
+
+   
   )
 }
