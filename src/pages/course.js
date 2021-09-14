@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 import CoursePhoto from "../images/course.jpeg";
 import UlrikPhoto from "../images/ulrik.jpeg";
 import UllaProfile from "../images/ulla.jpeg";
-import HeiniProfile from "../images/heini.jpeg";
+import HeiniProfile from "../images/heini.jpg";
 import MortenProfile from "../images/morten.jpeg";
 import { NewspaperIcon, PhoneIcon, SupportIcon } from '@heroicons/react/outline'
 
@@ -244,9 +244,10 @@ class CoursePage extends React.Component {
             <p>
               This course is a pilot-initiative aiming to bring a more hands-on approach to entrepreneurship, and decide if a permanent Applied Entrepreneruship course should be provided to ITU students.
             </p>
-            <p className="text-right text-xl text-gray-500">
-            MARTIN TVEDE ZACHARIASEN, ITU Vice Chancellor</p>
+
           </blockquote>
+          <p className="text-right text-xl text-gray-500">
+            MARTIN TVEDE ZACHARIASEN, ITU Vice Chancellor</p>
 
 
         </div>
