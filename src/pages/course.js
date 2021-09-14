@@ -239,7 +239,10 @@ class CoursePage extends React.Component {
           Sessions will be a combination of in class teaching, exercises and visiting entrepreneurs that will share
           their early stage stories and present some of their main challenges. Expect one hour preparation per session.
           </p>
-            <strong>There is no exam and no ECTS credits are awarded for the course.</strong>
+            <strong>Max participants: 30 students</strong><br/>
+            <strong>Expected course workload: 3 hours per week (incl. 2 hour course)</strong><br/>
+            <strong>The course is free of charge and there is no exam (no ECTS credits).</strong><br/>
+            
           <blockquote>
             <p>
               This course is a pilot-initiative aiming to bring a more hands-on approach to entrepreneurship, and decide if a permanent Applied Entrepreneruship course should be provided to ITU students.
