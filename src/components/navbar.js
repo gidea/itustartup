@@ -4,9 +4,10 @@ import { Popover, Transition } from '@headlessui/react'
 import {
   AnnotationIcon,
   ChatAlt2Icon,
+  AcademicCapIcon,
   InboxIcon,
   MenuIcon,
-  QuestionMarkCircleIcon,
+  BeakerIcon,
   XIcon,
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid';
@@ -22,10 +23,16 @@ class Navbar extends React.Component {
               href: '/cofounders',
               icon: InboxIcon,
             },
-            { name: 'Book a meeting',
-              description: "Not sure what to do? Just let us know and we can have a chat!",
-              href: '/meeting',
-              icon: ChatAlt2Icon },
+            // { name: 'Book a meeting',
+            //   description: "Not sure what to do? Just let us know and we can have a chat!",
+            //   href: '/meeting',
+            //   icon: ChatAlt2Icon },
+            {
+              name: 'Entrepreneruship Course',
+              description: 'A 6 week programme to help you understand tech startups.',
+              href: '/course',
+              icon: AcademicCapIcon,
+            },
             {
               name: 'Pipeline',
               description: 'A 3-month mentorship programe to turn your idea into a startup.',
@@ -37,7 +44,7 @@ class Navbar extends React.Component {
               name: 'Incubator',
               description: "Build a business and a working prototype in our incubator.",
               href: '/incubator',
-              icon: QuestionMarkCircleIcon,
+              icon: BeakerIcon,
             },
           ]
 

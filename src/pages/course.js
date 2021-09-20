@@ -62,7 +62,7 @@ class CoursePage extends React.Component {
 
         return(
             <main>
-            <title>ITU Startup Pipeline- Free startup advice for ITU Students</title>
+            <title>ITU Startup - Entrepreneruship Course - Free startup advice for ITU Students</title>
             <Navbar />
             <div className="bg-white">
             {/* Header */}
@@ -79,7 +79,7 @@ class CoursePage extends React.Component {
                 <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Entrepreneurship Course</h1>
                 <h2 className="text-3xl tracking-tight text-white">Building a business from idea to first commercial sales</h2>
                 <p className="mt-6 max-w-3xl text-xl text-gray-300">
-                    A 6 week programme to help you understand the building blocks of succesful startups and learn from the founders of some of the biggest Danish tech startups
+                    A 6 week programme to help you understand the building blocks of successful startups and learn from the founders of some of the biggest Danish tech startups
                 </p>
                 </div>
             </div>
