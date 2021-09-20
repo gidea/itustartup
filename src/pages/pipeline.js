@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Header from "../components/header";
 import PipelineOffer from "../components/pipelineoffer";
+import CourseBox from "../components/coursebox";
 import Testimonials from "../components/testimonials";
 import Team from "../components/team";
 import Footer from "../components/footer";
@@ -27,6 +28,7 @@ class PipelinePage extends React.Component {
             <Navbar />
             <Header image={this.state.image} title={this.state.title} description={this.state.description}/>
             <PipelineOffer />
+            <CourseBox />
             <Testimonials />
             <Team />
             <Footer />

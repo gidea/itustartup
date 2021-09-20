@@ -4,6 +4,7 @@ import Hero from '../components/hero';
 import Stages from '../components/stages';
 import Partners from '../components/partners';
 import MeetingBox from '../components/meetingbox';
+import CourseBox from '../components/coursebox';
 import Footer from '../components/footer';
 import { Helmet } from "react-helmet";
 import { withPrefix } from "gatsby";
@@ -24,8 +25,9 @@ export default function IndexPage () {
       <Navbar />
       <Hero />
       <Stages />
-      <MeetingBox />
+      <CourseBox />
       <Partners />
+      <MeetingBox />
       <Footer />
     </main>
   );
