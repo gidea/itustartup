@@ -210,7 +210,7 @@ class CoursePage extends React.Component {
             <li><strong>Oct 6 - Course introduction:</strong> What is a startup? What does it take to succeed? An overview of the startup journey, ideas and how to think about them using the business model canvas.</li>
             <li><strong>Oct 13 - Market and Customer Validation:</strong> How to get customer and market information, how to size the opportunity, the customer value proposition, thinking big and starting  small - does that make it less ambitious?</li>
             <li><strong>Oct 20 - 🍂 Autumn break 💆</strong> </li>
-            <li><strong>Oct 27 - Building the first product:</strong> How to scope the product, things to consider when defining your Minimal Viable Product (MVP), beta testing - when, with whom and what are the risks.</li>
+            <li><strong>Oct 27 - Building the first product:</strong> How to scope the product, things to consider when defining your Minimal Viable Product (MVP) and Product-Market Fit</li>
             <li><strong>Nov 3 - Getting the first customer:</strong> Go-to-market strategies, understanding the customer, the customer decision process, pricing, closing your first sales.</li>
             <li><strong>Nov 10 - Team and Execution:</strong> Founders and co-founders, team diversity and energy, what are the skills required to execute the opportunity?, cost effective execution, team dynamics</li>
             <li><strong>Nov 17 - Financials and Financing:</strong> Key financial metrics, financing options and things to consider: bootstrap - friends - angels - VC’s, course wrap-up and course evaluation.</li>
