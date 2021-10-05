@@ -22,7 +22,7 @@ class Footer extends React.Component {
             social: [
               {
                 name: 'Facebook',
-                href: '#',
+                href: 'https://facebook.com/itustartup',
                 icon: (props) => (
                   <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
                     <path
@@ -35,7 +35,7 @@ class Footer extends React.Component {
               },
               {
                 name: 'Instagram',
-                href: '#',
+                href: 'https://www.instagram.com/itustartup/',
                 icon: (props) => (
                   <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
                     <path
@@ -48,7 +48,7 @@ class Footer extends React.Component {
               },
               {
                 name: 'Linkedin',
-                href: '#',
+                href: 'https://www.linkedin.com/company/itustartup',
                 icon: (props) => (
                   <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
                     <path
