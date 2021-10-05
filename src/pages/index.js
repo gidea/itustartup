@@ -6,7 +6,7 @@ import Partners from '../components/partners';
 import MeetingBox from '../components/meetingbox';
 import CourseBox from '../components/coursebox';
 import Footer from '../components/footer';
-import Banner from '../components/banner';
+// import Banner from '../components/banner';
 import { Helmet } from "react-helmet";
 import { withPrefix } from "gatsby";
 
@@ -23,11 +23,11 @@ export default function IndexPage () {
             <meta name="description" content="We provide the right resources, mentorship &amp; financial support for students to create new technology startups at the IT University of Copenhagen."/>
             <script src={withPrefix('legalmonster.js')} />
       </Helmet>
-      <Banner />
+      {/* <Banner /> */}
       <Navbar />
       <Hero />
       <Stages />
-      <CourseBox />
+      {/* <CourseBox /> */}
       <Partners />
       <MeetingBox />
       <Footer />
