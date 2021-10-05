@@ -27,9 +27,9 @@ export default function IndexPage () {
       <Navbar />
       <Hero />
       <Stages />
+      <MeetingBox />
       {/* <CourseBox /> */}
       <Partners />
-      <MeetingBox />
       <Footer />
     </main>
   );

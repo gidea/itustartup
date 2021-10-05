@@ -1,4 +1,6 @@
 import React from "react";
+import Hubspot from '../images/partners/hubspot.png';
+import Microsoft from '../images/partners/microsoft.png';
 import AWS from '../images/partners/aws.png';
 import Google from '../images/partners/google.png';
 import Billy from '../images/partners/billy.png';
@@ -13,7 +15,17 @@ class Partners extends React.Component {
     render() {
 
         const partnerList = [
-            {
+          {
+            name: 'Hubspot',
+            href: '#',
+            logo: Hubspot,
+          },
+          {
+            name: 'Microsoft',
+            href: '#',
+            logo: Microsoft,
+          },  
+          {
                 name: 'AWS',
                 href: '#',
                 logo: AWS,
@@ -83,11 +95,11 @@ class Partners extends React.Component {
               
             </div>
           </div>
-          <div className="mt-8 grid grid-cols-3 gap-0.5 md:grid-cols-2 lg:mt-0 lg:grid-cols-3 sm:grid-cols-2">
+          <div className="mt-8 grid grid-cols-2 gap-0.5 md:grid-cols-2 lg:mt-0 lg:grid-cols-2 sm:grid-cols-2">
           {partnerList.map((partner) => (
-            <div key={partner.name} className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+            <div key={partner.name} className="col-span-1 flex justify-center py-4 px-4 bg-gray-50">
               <a href={partner.url}><img
-                className="max-h-12"
+                className="max-h-16"
                 src={partner.logo}
                 alt={partner.name}
               />
