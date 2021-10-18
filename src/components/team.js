@@ -16,7 +16,7 @@ const people = [
         role: 'Investment Manager',
         imageUrl: VladProfile,
         bio:
-          'Vlad combines a passion for entrepreneurship with a technical background, having worked with some of the most succesful danish startups in enabling data-driven products to be built & scaled. At ITU Business Development, Vlad is in charge of all investments &amp; student mentorship and sits on the board of some of our portfolio companies.',
+          'Vlad combines a passion for entrepreneurship with a technical background, having worked with some of the most succesful danish startups in enabling data-driven products to be built & scaled. At ITU Business Development, Vlad is in charge of all investments & student mentorship.',
         linkedinUrl: 'http://linkedin.com/in/gidea',
       },
     
