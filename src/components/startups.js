@@ -23,10 +23,10 @@ class Startups extends React.Component {
           link: 'https://autoscopiainteractive.com/',
         },
         {
-          name: 'HeyLouise',
+          name: 'heyLouise',
           vertical: 'SaaS, MarTech',
           logo: HeyLouise,
-          link: 'https://heylouise.com',
+          link: 'https://heylouise.app',
         },
         {
           name: 'Resolved',
