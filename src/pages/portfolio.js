@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Header from "../components/header";
 import Startups from "../components/startups";
+import Offer from "../components/incubatoroffer";
 import Footer from "../components/footer";
 import Photo from "../images/portfolio-image.jpeg";
 
@@ -22,6 +23,7 @@ class PortfolioPage extends React.Component {
             <Navbar />
             <Header image={this.state.image} title={this.state.title} description={this.state.description}/>
             <Startups />
+            <Offer />
             <Footer />
     </main>
         );

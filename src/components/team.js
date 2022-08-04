@@ -11,14 +11,14 @@ const people = [
         'Adam is an experienced operator, with a highly specialised background in both business administration and strategic management. Besides working with IP Portfolio management and technology transfer processes at ITU Business Development, Adam is the Chairman of Flow Robotics A/S, a very promising robotics company and ITU spinout',
       linkedinUrl: 'https://www.linkedin.com/in/adam-hillestr%C3%B8m-1a647b/',
     },
-    {
-        name: 'Vlad Gidea',
-        role: 'Investment Manager',
-        imageUrl: VladProfile,
-        bio:
-          'Vlad combines a passion for entrepreneurship with a technical background, having worked with some of the most succesful danish startups in enabling data-driven products to be built & scaled. At ITU Business Development, Vlad is in charge of all investments & student mentorship.',
-        linkedinUrl: 'http://linkedin.com/in/gidea',
-      },
+    // {
+    //     name: 'Vlad Gidea',
+    //     role: 'Investment Manager',
+    //     imageUrl: VladProfile,
+    //     bio:
+    //       'Vlad combines a passion for entrepreneurship with a technical background, having worked with some of the most succesful danish startups in enabling data-driven products to be built & scaled. At ITU Business Development, Vlad is in charge of all investments & student mentorship.',
+    //     linkedinUrl: 'http://linkedin.com/in/gidea',
+    //   },
     
   ]
   

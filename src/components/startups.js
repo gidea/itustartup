@@ -1,8 +1,7 @@
 import React from "react";
 import HeyLouise from "../images/startups/heylouise.png";
 import KARL from "../images/startups/karl.png";
-import AutoscopiaInteractive from "../images/startups/forgotten.png";
-import Resolved from "../images/startups/resolved.png";
+import Filify from "../images/startups/filify.png";
 import Marionette from "../images/startups/marionette.png";
 
 class Startups extends React.Component {
@@ -17,22 +16,16 @@ class Startups extends React.Component {
           link: 'https://karl.farm',
         },
         {
-          name: 'Autoscopia Interactive',
-          vertical: 'Games',
-          logo: AutoscopiaInteractive,
-          link: 'https://autoscopiainteractive.com/',
-        },
-        {
           name: 'heyLouise',
           vertical: 'SaaS, MarTech',
           logo: HeyLouise,
           link: 'https://heylouise.app',
         },
         {
-          name: 'Resolved',
-          vertical: 'SaaS, Fintech',
-          logo: Resolved,
-          link: '#',
+          name: 'Filify',
+          vertical: 'SaaS, MarTech',
+          logo: Filify,
+          link: 'https://filify.app',
         }, 
         {
           name: 'Marionette',
@@ -44,7 +37,7 @@ class Startups extends React.Component {
 
         return(
           <div className="text-center max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-          <ul className="grid grid-cols-3 gap-x-4 gap-y-12 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8">
+          <ul className="grid grid-cols-4 gap-x-4 gap-y-12 sm:grid-cols-4 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
           {startupList.map((startup) => (
         <li key={startup.name} className="relative">
           <div className="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
