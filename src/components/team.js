@@ -34,7 +34,7 @@ const people = [
               </p>
             </div>
             <div className="lg:col-span-2">
-              <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
+              <ul className="space-y-12 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
                 {people.map((person) => (
                   <li key={person.name}>
                     <div className="space-y-4">
