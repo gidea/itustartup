@@ -1,15 +1,16 @@
 import React from "react";
 import AdamProfile from "../images/Adam.jpg"
 import VladProfile from "../images/Vlad.jpg"
+import NikolajProfile from "../images/Nikolaj.jpg"
 
 const people = [
     {
-      name: 'Adam Hillestrom',
+      name: 'Nikolaj Oppermann',
       role: 'CEO',
-      imageUrl: AdamProfile,
+      imageUrl: NikolajProfile,
       bio:
-        'Adam is an experienced operator, with a highly specialised background in both business administration and strategic management. Besides working with IP Portfolio management and technology transfer processes at ITU Business Development, Adam is the Chairman of Flow Robotics A/S, a very promising robotics company and ITU spinout',
-      linkedinUrl: 'https://www.linkedin.com/in/adam-hillestr%C3%B8m-1a647b/',
+        '',
+      linkedinUrl: 'https://www.linkedin.com/in/nikolajoppermann/',
     },
     // {
     //     name: 'Vlad Gidea',

@@ -1,3 +1,5 @@
+/* Commented out but might use later 
+
 import React from "react";
 import Navbar from "../components/navbar";
 import Team from "../components/team";
@@ -42,4 +44,4 @@ class MeetingPage extends React.Component {
 
 }
 
-export default MeetingPage
+export default MeetingPage */
